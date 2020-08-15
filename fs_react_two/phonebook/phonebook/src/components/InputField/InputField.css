@@ -4,8 +4,21 @@
     border-radius: 50px;
     width: 50%;
     height: 40px;
+    margin-top: 10px;
+    /* margin: auto; */
+}
+
+.InputDiv {
+    /* text-align:inherit;  */
+    padding-left: 0;
+    padding-right: 14px;
 }
 
 .Button {
-    
+    width: 30%;
+    border: 0;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    background-color:rgb(211, 85, 85);
 }
