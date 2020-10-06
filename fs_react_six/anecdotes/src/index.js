@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
 
-const store = createStore();
+import anecdotesReducer from './reducers/anecdoteReducer.js';
+import { store } from './reducers/store.js'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
